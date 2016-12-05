@@ -1,0 +1,45 @@
+﻿<Window x:Class="hoofdstuk6Oef2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hoofdstuk6Oef2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Canvas Background="LightBlue">
+            <Button x:Name="EnterShopButton" Background="CornflowerBlue" Content="Enter Shop" Canvas.Left="265" Canvas.Top="68" Width="242" Click="EnterShopButton_Click"/>
+            <Button x:Name="Grandma" Content="Grandma" Canvas.Left="265" Canvas.Top="93" Width="85" MouseEnter="Grandma_MouseEnter" MouseLeave="Grandma_MouseLeave" Click="Grandma_Click"/>
+            <Label x:Name="GrandmaLabelCosts" Foreground="Red" Content="cost: 50c" Canvas.Left="355" Canvas.Top="90" Width="71"/>
+            <Label x:Name="GrandmaLabelPlus" Foreground="Green" Content="+2C/click" Canvas.Left="431" Canvas.Top="90" Width="71"/>
+            <Label x:Name="GrandmaLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="90"/>
+            <Label x:Name="GrandmaLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="90"/>
+            <Button x:Name="NOven" Content="New Oven" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Canvas.Left="265" Canvas.Top="118" Click="NOven_Click" MouseEnter="NOven_MouseEnter" MouseLeave="NOven_MouseLeave"/>
+            <Label x:Name="NewOvenLabelCosts" Foreground="Red" Content="cost: 200c" Canvas.Left="355" Canvas.Top="115" Width="71"/>
+            <Label x:Name="NewOvenLabelPlus" Foreground="Green" Content="+10C/click" Canvas.Left="431" Canvas.Top="115" Width="66"/>
+            <Label x:Name="NewOvenLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="115"/>
+            <Label x:Name="NewOvenLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="115"/>
+            <Button x:Name="XOven" Content="Second Oven" Canvas.Left="265" Canvas.Top="143" Width="85" Click="XOven_Click" MouseEnter="XOven_MouseEnter" MouseLeave="XOven_MouseLeave"/>
+            <Label x:Name="SecondOvenLabelCosts" Foreground="Red" Content="cost: 500c" Canvas.Left="355" Canvas.Top="140" Width="71"/>
+            <Label x:Name="SecondOvenLabelPlus" Foreground="Green" Content="+25C/click" Canvas.Left="431" Canvas.Top="140" Width="66"/>
+            <Label x:Name="SecondOvenLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="140"/>
+            <Label x:Name="SecondOvenLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="140"/>
+            <Button x:Name="SpaceCookie" Content="Space Cookie" Canvas.Left="265" Canvas.Top="168" Width="85" Click="SpaceCookie_Click" MouseEnter="SpaceCookie_MouseEnter" MouseLeave="SpaceCookie_MouseLeave"/>
+            <Label x:Name="SpaceCookieLabelCosts" Foreground="Red" Content="cost: 1000c" Canvas.Left="355" Canvas.Top="165" Width="71"/>
+            <Label x:Name="SpaceCookieLabelPlus" Foreground="Green" Content="+50C/click" Canvas.Left="431" Canvas.Top="165" Width="66"/>
+            <Label x:Name="SpaceCookieLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="165"/>
+            <Label x:Name="SpaceCookieLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="165"/>
+            <Button x:Name="LeaveShopButton" Background="CornflowerBlue" Content="Leave Shop" HorizontalAlignment="Left" VerticalAlignment="Top" Width="242" Canvas.Left="265" Canvas.Top="207" Click="LeaveShopButton_Click"/>
+            <Label x:Name="KoekjesPerClick" Content="1 koekje(s) per Click" Canvas.Left="38" Canvas.Top="100"/>
+
+        </Canvas>
+
+        <Label x:Name="AantalCookies" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="47,36,0,0" Width="212"/>
+        <Ellipse x:Name="Cookie" Fill="SandyBrown" HorizontalAlignment="Left" Height="100" Stroke="SaddleBrown" VerticalAlignment="Top" Width="100" Margin="47,148,0,0" MouseEnter="Cookie_MouseEnter" MouseLeftButtonDown="Cookie_MouseLeftButtonDown" MouseLeave="Cookie_MouseLeave"/>
+        <Ellipse x:Name="Chocolate1" Fill="SaddleBrown" HorizontalAlignment="Left" Height="23" Margin="76,210,0,0" Stroke="SandyBrown" VerticalAlignment="Top" Width="23" MouseLeftButtonDown="Cookie_MouseLeftButtonDown" MouseEnter="Cookie_MouseEnter" MouseLeave="Cookie_MouseLeave"/>
+        <Ellipse x:Name="Chocolate2" Fill="SaddleBrown" HorizontalAlignment="Left" Height="39" Margin="60,166,0,0" Stroke="SandyBrown" VerticalAlignment="Top" Width="39" MouseLeftButtonDown="Cookie_MouseLeftButtonDown" MouseEnter="Cookie_MouseEnter" MouseLeave="Cookie_MouseLeave"/>
+        <Ellipse x:Name="Chocolate3" Fill="SaddleBrown" HorizontalAlignment="Left" Height="30" Margin="104,189,0,0" Stroke="SandyBrown" VerticalAlignment="Top" Width="30" MouseLeftButtonDown="Cookie_MouseLeftButtonDown" MouseEnter="Cookie_MouseEnter" MouseLeave="Cookie_MouseLeave"/>
+        <Label x:Name="label1" Content="Cookies" HorizontalAlignment="Left" Margin="70,67,0,0" VerticalAlignment="Top" Width="57"/>
+
+    </Grid>
+</Window>
