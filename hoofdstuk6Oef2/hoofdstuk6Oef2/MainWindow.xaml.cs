@@ -56,26 +56,11 @@ namespace hoofdstuk6Oef2
 
         private void Cookie_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (getal < 50)
-            {
-                getal = getal + 1;
-                AantalCookies.Content = getal;
-            }
-            else if (getal < 200 && getal >= 50)
-            {
-                getal = getal + 4;
-                AantalCookies.Content = getal;
-            }
-            else if (getal < 500 && getal >= 200)
-            {
-                getal = getal + 10;
-                AantalCookies.Content = getal;
-            }
-            else if (getal < 1000000 && getal >= 500)
-            {
-                getal = getal + 20;
-                AantalCookies.Content = getal;
-            }
+            getal = getal + 1
+            + Convert.ToInt32(GrandmaLevelLabel2.Content) * 2
+            
+            ;
+            AantalCookies.Content = getal;
         }
 
         private void Cookie_MouseLeave(object sender, MouseEventArgs e)
