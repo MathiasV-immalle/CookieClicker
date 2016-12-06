@@ -144,6 +144,8 @@ namespace hoofdstuk6Oef2
             SecondOvenLevelLabel2.Visibility = Visibility.Hidden;
             SpaceCookieLevelLabel.Visibility = Visibility.Hidden;
             SpaceCookieLevelLabel2.Visibility = Visibility.Hidden;
+            BakerieLevelLabel.Visibility = Visibility.Hidden;
+            BakerieLevelLabel2.Visibility = Visibility.Hidden;
             CookiePlanetLevelLabel.Visibility = Visibility.Hidden;
             CookiePlanetLevelLabel2.Visibility = Visibility.Hidden;
             CookieversiumLevelLabel.Visibility = Visibility.Hidden;
@@ -326,8 +328,8 @@ namespace hoofdstuk6Oef2
         {
             Cookie.Fill = new SolidColorBrush(Colors.SandyBrown);
             Chocolate1.Fill = new SolidColorBrush(Colors.SaddleBrown);
-            Chocolate1.Fill = new SolidColorBrush(Colors.SaddleBrown);
-            Chocolate1.Fill = new SolidColorBrush(Colors.SaddleBrown);
+            Chocolate2.Fill = new SolidColorBrush(Colors.SaddleBrown);
+            Chocolate3.Fill = new SolidColorBrush(Colors.SaddleBrown);
             Cookie.Stroke = new SolidColorBrush(Colors.SaddleBrown);
             Chocolate1.Stroke = new SolidColorBrush(Colors.SandyBrown);
             Chocolate2.Stroke = new SolidColorBrush(Colors.SandyBrown);
