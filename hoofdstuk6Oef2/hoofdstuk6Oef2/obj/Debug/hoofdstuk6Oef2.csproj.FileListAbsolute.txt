@@ -40,3 +40,17 @@ C:\Users\Mathias Vansant\Documents\CookieClicker\hoofdstuk6Oef2\hoofdstuk6Oef2\o
 C:\Users\Mathias Vansant\Documents\CookieClicker\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.g.resources
 C:\Users\Mathias Vansant\Documents\CookieClicker\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.Properties.Resources.resources
 C:\Users\Mathias Vansant\Documents\CookieClicker\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.csproj.GenerateResource.Cache
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\bin\Debug\hoofdstuk6Oef2.exe.config
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.exe
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.pdb
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\bin\Debug\hoofdstuk6Oef2.exe
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\bin\Debug\hoofdstuk6Oef2.pdb
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.csprojResolveAssemblyReference.cache
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\MainWindow.g.cs
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\App.g.cs
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2_MarkupCompile.cache
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2_MarkupCompile.lref
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\MainWindow.baml
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.g.resources
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.Properties.Resources.resources
+C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.csproj.GenerateResource.Cache
