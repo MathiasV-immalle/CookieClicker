@@ -8,30 +8,46 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Canvas Background="LightBlue">
-            <Button x:Name="EnterShopButton" Background="CornflowerBlue" Content="Enter Shop" Canvas.Left="265" Canvas.Top="68" Width="242" Click="EnterShopButton_Click"/>
-            <Button x:Name="Grandma" Content="Grandma" Canvas.Left="265" Canvas.Top="93" Width="85" MouseEnter="Grandma_MouseEnter" MouseLeave="Grandma_MouseLeave" Click="Grandma_Click"/>
-            <Label x:Name="GrandmaLabelCosts" Foreground="Red" Content="cost: 50c" Canvas.Left="355" Canvas.Top="90" Width="71"/>
-            <Label x:Name="GrandmaLabelPlus" Foreground="Green" Content="+2C/click" Canvas.Left="431" Canvas.Top="90" Width="71"/>
-            <Label x:Name="GrandmaLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="90"/>
-            <Label x:Name="GrandmaLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="90"/>
-            <Button x:Name="NOven" Content="New Oven" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Canvas.Left="265" Canvas.Top="118" Click="NOven_Click" MouseEnter="NOven_MouseEnter" MouseLeave="NOven_MouseLeave"/>
-            <Label x:Name="NewOvenLabelCosts" Foreground="Red" Content="cost: 200c" Canvas.Left="355" Canvas.Top="115" Width="71"/>
-            <Label x:Name="NewOvenLabelPlus" Foreground="Green" Content="+10C/click" Canvas.Left="431" Canvas.Top="115" Width="66"/>
-            <Label x:Name="NewOvenLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="115"/>
-            <Label x:Name="NewOvenLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="115"/>
-            <Button x:Name="XOven" Content="Second Oven" Canvas.Left="265" Canvas.Top="143" Width="85" Click="XOven_Click" MouseEnter="XOven_MouseEnter" MouseLeave="XOven_MouseLeave"/>
-            <Label x:Name="SecondOvenLabelCosts" Foreground="Red" Content="cost: 500c" Canvas.Left="355" Canvas.Top="140" Width="71"/>
-            <Label x:Name="SecondOvenLabelPlus" Foreground="Green" Content="+25C/click" Canvas.Left="431" Canvas.Top="140" Width="66"/>
-            <Label x:Name="SecondOvenLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="140"/>
-            <Label x:Name="SecondOvenLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="140"/>
-            <Button x:Name="SpaceCookie" Content="Space Cookie" Canvas.Left="265" Canvas.Top="168" Width="85" Click="SpaceCookie_Click" MouseEnter="SpaceCookie_MouseEnter" MouseLeave="SpaceCookie_MouseLeave"/>
-            <Label x:Name="SpaceCookieLabelCosts" Foreground="Red" Content="cost: 1000c" Canvas.Left="355" Canvas.Top="165" Width="71"/>
-            <Label x:Name="SpaceCookieLabelPlus" Foreground="Green" Content="+50C/click" Canvas.Left="431" Canvas.Top="165" Width="66"/>
-            <Label x:Name="SpaceCookieLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="165"/>
-            <Label x:Name="SpaceCookieLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="165"/>
-            <Button x:Name="LeaveShopButton" Background="CornflowerBlue" Content="Leave Shop" HorizontalAlignment="Left" VerticalAlignment="Top" Width="242" Canvas.Left="265" Canvas.Top="207" Click="LeaveShopButton_Click"/>
+            <Button x:Name="EnterShopButton" Background="CornflowerBlue" Content="Enter Shop" Canvas.Left="265" Canvas.Top="36" Width="242" Click="EnterShopButton_Click"/>
+            <Button x:Name="Grandma" Content="Grandma" Canvas.Left="265" Canvas.Top="61" Width="85" MouseEnter="Grandma_MouseEnter" MouseLeave="Grandma_MouseLeave" Click="Grandma_Click"/>
+            <Label x:Name="GrandmaLabelCosts" Foreground="Red" Content="cost: 50c" Canvas.Left="355" Canvas.Top="58" Width="76"/>
+            <Label x:Name="GrandmaLabelPlus" Foreground="Green" Content="+2C/click" Canvas.Left="431" Canvas.Top="58" Width="76"/>
+            <Label x:Name="GrandmaLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="58"/>
+            <Label x:Name="GrandmaLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="59"/>
+            <Button x:Name="NOven" Content="New Oven" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Canvas.Left="265" Canvas.Top="85" Click="NOven_Click" MouseEnter="NOven_MouseEnter" MouseLeave="NOven_MouseLeave"/>
+            <Label x:Name="NewOvenLabelCosts" Foreground="Red" Content="cost: 200c" Canvas.Left="355" Canvas.Top="82" Width="76"/>
+            <Label x:Name="NewOvenLabelPlus" Foreground="Green" Content="+10C/click" Canvas.Left="431" Canvas.Top="82" Width="76"/>
+            <Label x:Name="NewOvenLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="82"/>
+            <Label x:Name="NewOvenLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="82"/>
+            <Button x:Name="XOven" Content="Second Oven" Canvas.Left="265" Canvas.Top="110" Width="85" Click="XOven_Click" MouseEnter="XOven_MouseEnter" MouseLeave="XOven_MouseLeave"/>
+            <Label x:Name="SecondOvenLabelCosts" Foreground="Red" Content="cost: 500c" Canvas.Left="355" Canvas.Top="107" Width="76"/>
+            <Label x:Name="SecondOvenLabelPlus" Foreground="Green" Content="+25C/click" Canvas.Left="431" Canvas.Top="107" Width="76"/>
+            <Label x:Name="SecondOvenLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="107"/>
+            <Label x:Name="SecondOvenLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="107"/>
+            <Button x:Name="SpaceCookie" Content="Space Cookie" Canvas.Left="265" Canvas.Top="135" Width="85" Click="SpaceCookie_Click" MouseEnter="SpaceCookie_MouseEnter" MouseLeave="SpaceCookie_MouseLeave"/>
+            <Label x:Name="SpaceCookieLabelCosts" Foreground="Red" Content="cost: 1000c" Canvas.Left="355" Canvas.Top="132" Width="76"/>
+            <Label x:Name="SpaceCookieLabelPlus" Foreground="Green" Content="+50C/click" Canvas.Left="431" Canvas.Top="132" Width="76"/>
+            <Label x:Name="SpaceCookieLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="132"/>
+            <Label x:Name="SpaceCookieLevelLabel2" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Canvas.Left="228" Canvas.Top="132"/>
+            <Button x:Name="LeaveShopButton" Background="CornflowerBlue" Content="Leave Shop" HorizontalAlignment="Left" VerticalAlignment="Top" Width="242" Canvas.Left="265" Canvas.Top="235" Click="LeaveShopButton_Click"/>
             <Label x:Name="KoekjesPerClick" Content="1 koekje(s) per Click" Canvas.Left="38" Canvas.Top="100"/>
-
+            <Button x:Name="Bakerie" Content="Bakerie" Canvas.Left="265" Canvas.Top="160" Width="85" Click="Bakerie_Click" MouseEnter="Bakerie_MouseEnter" MouseLeave="Bakerie_MouseLeave"/>
+            <Label x:Name="BakerieLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="157" Width="34"/>
+            <Label x:Name="BakerieLevelLabel2" Content="0" Canvas.Left="228" Canvas.Top="157" Width="37"/>
+            <Label x:Name="BakerieLabelCosts" Foreground="Red" Content="cost: 3000c" Canvas.Left="355" Canvas.Top="157" Width="76"/>
+            <Label x:Name="BakerieLabelPlus" Foreground="Green" Content="+75C/click" Canvas.Left="431" Canvas.Top="157" Width="76"/>
+            <Button x:Name="CookiePlanet" Content="Cookie Planet" Canvas.Left="265" Canvas.Top="185" Width="85" Click="CookiePlanet_Click" MouseEnter="CookiePlanet_MouseEnter" MouseLeave="CookiePlanet_MouseLeave"/>
+            <Label x:Name="CookiePlanetLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="182" Width="34"/>
+            <Label x:Name="CookiePlanetLevelLabel2" Content="0" Canvas.Left="228" Canvas.Top="182" Width="37"/>
+            <Label x:Name="CookiePlanetLabelCosts" Foreground="Red" Content="cost: 5000c" Canvas.Left="355" Canvas.Top="182" Width="76"/>
+            <Label x:Name="CookiePlanetLabelPlus" Foreground="Green" Content="+100C/click" Canvas.Left="431" Canvas.Top="182" Width="76"/>
+            <Button x:Name="Cookieversium" Content="Cookieversium" Canvas.Left="265" Canvas.Top="210" Width="85" Click="Cookieversium_Click" MouseEnter="Cookieversium_MouseEnter" MouseLeave="Cookieversium_MouseLeave"/>
+            <Label x:Name="CookieversiumLevelLabel" Content="level" Canvas.Left="194" Canvas.Top="207" Width="34"/>
+            <Label x:Name="CookieversiumLevelLabel2" Content="0" Canvas.Left="228" Canvas.Top="207" Width="37"/>
+            <Label x:Name="CookieversiumLabelCosts" Foreground="Red" Content="cost: 10000c" Canvas.Left="355" Canvas.Top="207" Width="76"/>
+            <Label x:Name="CookieversiumLabelPlus" Foreground="Green" Content="+150C/click" Canvas.Left="431" Canvas.Top="207" Width="76"/>
+            <Button x:Name="SpaceCookieTransformer" Content="Space Mode" Canvas.Left="10" Canvas.Top="289" Width="75" Click="SpaceCookieTransformer_Click"/>
+            <Button x:Name="NormalCookieTransformer" Content="Earth Mode" Canvas.Left="111" Canvas.Top="289" Width="75" Click="NormalCookieTransformer_Click"/>
         </Canvas>
 
         <Label x:Name="AantalCookies" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="47,36,0,0" Width="212"/>
@@ -39,7 +55,7 @@
         <Ellipse x:Name="Chocolate1" Fill="SaddleBrown" HorizontalAlignment="Left" Height="23" Margin="76,210,0,0" Stroke="SandyBrown" VerticalAlignment="Top" Width="23" MouseLeftButtonDown="Cookie_MouseLeftButtonDown" MouseEnter="Cookie_MouseEnter" MouseLeave="Cookie_MouseLeave"/>
         <Ellipse x:Name="Chocolate2" Fill="SaddleBrown" HorizontalAlignment="Left" Height="39" Margin="60,166,0,0" Stroke="SandyBrown" VerticalAlignment="Top" Width="39" MouseLeftButtonDown="Cookie_MouseLeftButtonDown" MouseEnter="Cookie_MouseEnter" MouseLeave="Cookie_MouseLeave"/>
         <Ellipse x:Name="Chocolate3" Fill="SaddleBrown" HorizontalAlignment="Left" Height="30" Margin="104,189,0,0" Stroke="SandyBrown" VerticalAlignment="Top" Width="30" MouseLeftButtonDown="Cookie_MouseLeftButtonDown" MouseEnter="Cookie_MouseEnter" MouseLeave="Cookie_MouseLeave"/>
-        <Label x:Name="label1" Content="Cookies" HorizontalAlignment="Left" Margin="70,67,0,0" VerticalAlignment="Top" Width="57"/>
+        <Label x:Name="Cookies" Content="Cookies" HorizontalAlignment="Left" Margin="70,67,0,0" VerticalAlignment="Top" Width="57"/>
 
     </Grid>
 </Window>
