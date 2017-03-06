@@ -63,7 +63,8 @@ namespace hoofdstuk6Oef2
             CookieversiumLevelLabel2.Visibility = Visibility.Hidden;
             CookieversiumLabelCosts.Visibility = Visibility.Hidden;
             CookieversiumLabelPlus.Visibility = Visibility.Hidden;
-
+            HighScoreListBox.Visibility = Visibility.Hidden;
+            HideHighScoreButton.Visibility = Visibility.Hidden;
         }
 
         // Cookie + Click
@@ -132,6 +133,7 @@ namespace hoofdstuk6Oef2
             CookiePlanetLevelLabel2.Visibility = Visibility.Visible;
             CookieversiumLevelLabel.Visibility = Visibility.Visible;
             CookieversiumLevelLabel2.Visibility = Visibility.Visible;
+            ViewHighScoreButton.Visibility = Visibility.Hidden;
         }
 
         private void LeaveShopButton_Click(object sender, RoutedEventArgs e)
@@ -159,6 +161,7 @@ namespace hoofdstuk6Oef2
             CookiePlanetLevelLabel2.Visibility = Visibility.Hidden;
             CookieversiumLevelLabel.Visibility = Visibility.Hidden;
             CookieversiumLevelLabel2.Visibility = Visibility.Hidden;
+            ViewHighScoreButton.Visibility = Visibility.Visible;
         }
 
         private void Grandma_MouseEnter(object sender, MouseEventArgs e)
@@ -343,6 +346,27 @@ namespace hoofdstuk6Oef2
             Chocolate1.Stroke = new SolidColorBrush(Colors.SandyBrown);
             Chocolate2.Stroke = new SolidColorBrush(Colors.SandyBrown);
             Chocolate3.Stroke = new SolidColorBrush(Colors.SandyBrown);
+        }
+
+        private void ViewHighScoreButton_Click(object sender, RoutedEventArgs e)
+        {
+            HighScoreListBox.Visibility = Visibility.Visible;
+            HideHighScoreButton.Visibility = Visibility.Visible;
+            EnterShopButton.Visibility = Visibility.Hidden;
+        }
+
+        private void HideHighScoreButton_Click(object sender, RoutedEventArgs e)
+        {
+            HighScoreListBox.Visibility = Visibility.Hidden;
+            HideHighScoreButton.Visibility = Visibility.Hidden;
+            EnterShopButton.Visibility = Visibility.Visible;
+        }
+
+        private void UploadScoreButton_Click(object sender, RoutedEventArgs e)
+        {
+            ListBoxItem Score = new ListBoxItem();
+            Score.Content = Convert.ToInt32(AantalCookies.Content);
+            HighScoreListBox.Items.Add(Score);
         }
     }
 }

@@ -48,6 +48,9 @@
             <Label x:Name="CookieversiumLabelPlus" Foreground="Green" Content="+150C/click" Canvas.Left="431" Canvas.Top="207" Width="76"/>
             <Button x:Name="SpaceCookieTransformer" Content="Space Mode" Canvas.Left="10" Canvas.Top="289" Width="75" Click="SpaceCookieTransformer_Click"/>
             <Button x:Name="NormalCookieTransformer" Content="Earth Mode" Canvas.Left="111" Canvas.Top="289" Width="75" Click="NormalCookieTransformer_Click"/>
+            <Button x:Name="ViewHighScoreButton" Background="CornflowerBlue" Content="View Highscore" Canvas.Left="265" Canvas.Top="62" Width="242" Click="ViewHighScoreButton_Click"/>
+            <Button x:Name="HideHighScoreButton" Background="CornflowerBlue" Content="Hide Highscore" HorizontalAlignment="Left" VerticalAlignment="Top" Width="242" Canvas.Left="265" Canvas.Top="274" Click="HideHighScoreButton_Click"/>
+            <Button x:Name="UploadScoreButton" Content="Upload Score" Canvas.Left="387" Canvas.Top="299" Width="130" BorderBrush="Red" Click="UploadScoreButton_Click"/>
         </Canvas>
 
         <Label x:Name="AantalCookies" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="47,36,0,0" Width="212"/>
@@ -56,6 +59,6 @@
         <Ellipse x:Name="Chocolate2" Fill="SaddleBrown" HorizontalAlignment="Left" Height="39" Margin="60,166,0,0" Stroke="SandyBrown" VerticalAlignment="Top" Width="39" MouseLeftButtonDown="Cookie_MouseLeftButtonDown" MouseEnter="Cookie_MouseEnter" MouseLeave="Cookie_MouseLeave"/>
         <Ellipse x:Name="Chocolate3" Fill="SaddleBrown" HorizontalAlignment="Left" Height="30" Margin="104,189,0,0" Stroke="SandyBrown" VerticalAlignment="Top" Width="30" MouseLeftButtonDown="Cookie_MouseLeftButtonDown" MouseEnter="Cookie_MouseEnter" MouseLeave="Cookie_MouseLeave"/>
         <Label x:Name="Cookies" Content="Cookies" HorizontalAlignment="Left" Margin="70,67,0,0" VerticalAlignment="Top" Width="57"/>
-
+        <ListBox x:Name="HighScoreListBox" HorizontalAlignment="Left" Height="184" Margin="265,87,0,0" VerticalAlignment="Top" Width="242"/>
     </Grid>
 </Window>
