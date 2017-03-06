@@ -63,8 +63,6 @@ namespace hoofdstuk6Oef2
             CookieversiumLevelLabel2.Visibility = Visibility.Hidden;
             CookieversiumLabelCosts.Visibility = Visibility.Hidden;
             CookieversiumLabelPlus.Visibility = Visibility.Hidden;
-            HighScoreListBox.Visibility = Visibility.Hidden;
-            HideHighScoreButton.Visibility = Visibility.Hidden;
         }
 
         // Cookie + Click
@@ -164,6 +162,10 @@ namespace hoofdstuk6Oef2
             ViewHighScoreButton.Visibility = Visibility.Visible;
         }
 
+        // Shop MouseEnter + MouseLeave
+        //
+        //
+
         private void Grandma_MouseEnter(object sender, MouseEventArgs e)
         {
             GrandmaLabelCosts.Visibility = Visibility.Visible;
@@ -248,7 +250,7 @@ namespace hoofdstuk6Oef2
             BakerieLabelPlus.Visibility = Visibility.Hidden;
         }
 
-        // Shop
+        // Shop: Click
         //
         //
 
@@ -348,25 +350,60 @@ namespace hoofdstuk6Oef2
             Chocolate3.Stroke = new SolidColorBrush(Colors.SandyBrown);
         }
 
+        // Highscore
+        //
+        //
+
         private void ViewHighScoreButton_Click(object sender, RoutedEventArgs e)
         {
-            HighScoreListBox.Visibility = Visibility.Visible;
-            HideHighScoreButton.Visibility = Visibility.Visible;
-            EnterShopButton.Visibility = Visibility.Hidden;
+            // hier moet het nieuwe "HighscoreWindow" geopend worden.
         }
 
-        private void HideHighScoreButton_Click(object sender, RoutedEventArgs e)
-        {
-            HighScoreListBox.Visibility = Visibility.Hidden;
-            HideHighScoreButton.Visibility = Visibility.Hidden;
-            EnterShopButton.Visibility = Visibility.Visible;
-        }
 
-        private void UploadScoreButton_Click(object sender, RoutedEventArgs e)
-        {
-            ListBoxItem Score = new ListBoxItem();
-            Score.Content = Convert.ToInt32(AantalCookies.Content);
-            HighScoreListBox.Items.Add(Score);
-        }
+        // al deze dingen moeten nog worden aangepast omdat er een nieuw window is gemaakt. 
+        // Ook werkt het nog niet helemaal correct ...
+
+        //private void ViewHighScoreButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    HighScoreListBox.Visibility = Visibility.Visible;
+        //    HideHighScoreButton.Visibility = Visibility.Visible;
+        //    EnterShopButton.Visibility = Visibility.Hidden;
+        //}
+
+        //private void HideHighScoreButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    HighScoreListBox.Visibility = Visibility.Hidden;
+        //    HideHighScoreButton.Visibility = Visibility.Hidden;
+        //    EnterShopButton.Visibility = Visibility.Visible;
+        //}
+
+        //private void UploadScoreButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    long highscore1 = Convert.ToInt64(AantalCookies.Content);
+
+        //    if (HighScoreListBox.Items.Count == 0)
+        //    {
+        //        //ListBoxItem Score = new ListBoxItem();
+        //        //Score.Content = highscore1;
+        //        HighScoreListBox.Items.Add(highscore1);
+        //    }
+        //    else
+        //    {
+        //        long x = Convert.ToInt64(AantalCookies.Content);
+        //        //ListBoxItem Score = new ListBoxItem();
+
+        //        if (x > highscore1)
+        //        {
+        //            highscore1 = x;
+        //            //Score.Content = x;
+        //            HighScoreListBox.Items.Insert(0, x);
+        //        }
+        //        else
+        //        {
+        //            //Score.Content = x;
+        //            HighScoreListBox.Items.Add(x);
+        //        }
+        //    }
+        //}
     }
 }
