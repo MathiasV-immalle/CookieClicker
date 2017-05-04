@@ -68,3 +68,17 @@ C:\Users\Mathias Vansant\Documents\CookieClicker2\hoofdstuk6Oef2\hoofdstuk6Oef2\
 \\imma-fs-0003\mathias.vansant$\documents\CookieClickerDef\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.g.resources
 \\imma-fs-0003\mathias.vansant$\documents\CookieClickerDef\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.Properties.Resources.resources
 \\imma-fs-0003\mathias.vansant$\documents\CookieClickerDef\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.csproj.GenerateResource.Cache
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\bin\Debug\hoofdstuk6Oef2.exe.config
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.exe
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.pdb
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.csprojResolveAssemblyReference.cache
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\MainWindow.g.cs
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\App.g.cs
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2_MarkupCompile.cache
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2_MarkupCompile.lref
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\bin\Debug\hoofdstuk6Oef2.exe
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\bin\Debug\hoofdstuk6Oef2.pdb
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\MainWindow.baml
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.g.resources
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.Properties.Resources.resources
+\\imma-fs-0003\mathias.vansant$\documents\CookieClickerz\hoofdstuk6Oef2\hoofdstuk6Oef2\obj\Debug\hoofdstuk6Oef2.csproj.GenerateResource.Cache

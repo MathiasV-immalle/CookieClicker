@@ -76,15 +76,20 @@ namespace hoofdstuk6Oef2
 
         private void Cookie_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            CookiesPerClick();
+        }
+
+        public void CookiesPerClick()
+        {
             getal = getal + 1
-            + Convert.ToInt32(GrandmaLevelLabel2.Content) * 2
-            + Convert.ToInt32(NewOvenLevelLabel2.Content) * 10
-            + Convert.ToInt32(SecondOvenLevelLabel2.Content) * 25
-            + Convert.ToInt32(SpaceCookieLevelLabel2.Content) * 50
-            + Convert.ToInt32(BakerieLevelLabel2.Content) * 75
-            + Convert.ToInt32(CookiePlanetLevelLabel2.Content) * 100
-            + Convert.ToInt32(CookieversiumLevelLabel2.Content) * 150
-            ;
+         + Convert.ToInt32(GrandmaLevelLabel2.Content) * 2
+         + Convert.ToInt32(NewOvenLevelLabel2.Content) * 10
+         + Convert.ToInt32(SecondOvenLevelLabel2.Content) * 25
+         + Convert.ToInt32(SpaceCookieLevelLabel2.Content) * 50
+         + Convert.ToInt32(BakerieLevelLabel2.Content) * 75
+         + Convert.ToInt32(CookiePlanetLevelLabel2.Content) * 100
+         + Convert.ToInt32(CookieversiumLevelLabel2.Content) * 150
+         ;
             AantalCookies.Content = getal;
             KoekjesPerClick.Content = 1
             + Convert.ToInt32(GrandmaLevelLabel2.Content) * 2
@@ -95,7 +100,7 @@ namespace hoofdstuk6Oef2
             + Convert.ToInt32(CookiePlanetLevelLabel2.Content) * 100
             + Convert.ToInt32(CookieversiumLevelLabel2.Content) * 150
             + " koekje(s) per Click";
-        }
+    }
 
         private void Cookie_MouseLeave(object sender, MouseEventArgs e)
         {
@@ -262,6 +267,7 @@ namespace hoofdstuk6Oef2
                 AantalCookies.Content = getal;
                 GrandmaLevelLabel2.Content = Convert.ToInt32(GrandmaLevelLabel2.Content) + 1;
             }
+            CookiesPerClick();
         }
 
         private void NOven_Click(object sender, RoutedEventArgs e)
@@ -272,6 +278,7 @@ namespace hoofdstuk6Oef2
                 AantalCookies.Content = getal;
                 NewOvenLevelLabel2.Content = Convert.ToInt32(NewOvenLevelLabel2.Content) + 1;
             }
+            CookiesPerClick();
         }
 
         private void XOven_Click(object sender, RoutedEventArgs e)
@@ -282,6 +289,7 @@ namespace hoofdstuk6Oef2
                 AantalCookies.Content = getal;
                 SecondOvenLevelLabel2.Content = Convert.ToInt32(SecondOvenLevelLabel2.Content) + 1;
             }
+            CookiesPerClick();
         }
 
         private void SpaceCookie_Click(object sender, RoutedEventArgs e)
@@ -294,6 +302,7 @@ namespace hoofdstuk6Oef2
                 SpaceCookieTransformer.Visibility = Visibility.Visible;
                 NormalCookieTransformer.Visibility = Visibility.Visible;
             }
+            CookiesPerClick();
         }
 
         private void Bakerie_Click(object sender, RoutedEventArgs e)
@@ -304,6 +313,7 @@ namespace hoofdstuk6Oef2
                 AantalCookies.Content = getal;
                 BakerieLevelLabel2.Content = Convert.ToInt32(BakerieLevelLabel2.Content) + 1;
             }
+            CookiesPerClick();
         }
 
         private void CookiePlanet_Click(object sender, RoutedEventArgs e)
@@ -314,6 +324,7 @@ namespace hoofdstuk6Oef2
                 AantalCookies.Content = getal;
                 CookiePlanetLevelLabel2.Content = Convert.ToInt32(CookiePlanetLevelLabel2.Content) + 1;
             }
+            CookiesPerClick();
         }
 
         private void Cookieversium_Click(object sender, RoutedEventArgs e)
@@ -324,6 +335,7 @@ namespace hoofdstuk6Oef2
                 AantalCookies.Content = getal;
                 CookieversiumLevelLabel2.Content = Convert.ToInt32(CookieversiumLevelLabel2.Content) + 1;
             }
+            CookiesPerClick();
         }
 
         private void SpaceCookieTransformer_Click(object sender, RoutedEventArgs e)

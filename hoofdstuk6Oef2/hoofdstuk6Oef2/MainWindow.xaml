@@ -49,7 +49,6 @@
             <Button x:Name="SpaceCookieTransformer" Content="Space Mode" Canvas.Left="10" Canvas.Top="289" Width="75" Click="SpaceCookieTransformer_Click"/>
             <Button x:Name="NormalCookieTransformer" Content="Earth Mode" Canvas.Left="111" Canvas.Top="289" Width="75" Click="NormalCookieTransformer_Click"/>
             <Button x:Name="ViewHighScoreButton" Background="CornflowerBlue" Content="View Highscore" Canvas.Left="265" Canvas.Top="62" Width="242" Click="ViewHighScoreButton_Click"/>
-            <Button x:Name="UploadScoreButton" Content="Upload Score" Canvas.Left="387" Canvas.Top="299" Width="130" BorderBrush="Red" Click="UploadScoreButton_Click"/>
         </Canvas>
 
         <Label x:Name="AantalCookies" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="47,36,0,0" Width="212"/>
